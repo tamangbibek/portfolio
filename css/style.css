@@ -9703,3 +9703,14 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+/* Force solid bullets for coursework lists */
+.course-list {
+  list-style-type: disc;
+  list-style-position: outside;
+  padding-left: 18px;
+}
+
+.course-list li {
+  margin-bottom: 6px;
+}
